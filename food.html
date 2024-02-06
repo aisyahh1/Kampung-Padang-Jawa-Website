@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kampung Padang Jawa</title>
+</head>
+<body>
+  <img src="pictures/header.png" alt="header" width="1200" height="260" style="margin-left: 80px;">
+
+    <style>
+    body {
+     background-image: url(pictures/background.png);
+    }
+        body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .navbar {
+      overflow: hidden;
+      background-color: #771011;
+    }
+    
+    .navbar a {
+      float: right;
+      font-size: 16px;
+      color: #ece6d3;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    .dropdown {
+      float: right;
+      overflow: hidden;
+    }
+    
+    .dropdown .dropbtn {
+      font-size: 16px;  
+      border: none;
+      outline: none;
+      color: #ece6d3;
+      padding: 14px 16px;
+      background-color: inherit;
+      font-family: inherit;
+      margin: 0;
+    }
+    
+    .navbar a:hover, .dropdown:hover .dropbtn {
+      background-color: #ece6d3;
+      color: #771011;
+    }
+    
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #771011;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    
+    .dropdown-content a {
+      float: none;
+      color: #ece6d3;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+    
+    .dropdown-content a:hover {
+      background-color: #ece6d3;
+    }
+    
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+    .active {
+          background-color: #ece6d3;
+           }
+    </style>
+    </head>
+    <body style="background-color:white;">
+    
+    <div class="navbar">
+      <a href="news.html">News</a>
+      <a href="things.html">Things To Do</a>
+      <div class="dropdown">
+        <button class="dropbtn">Attractions
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="attractions.html">Attractions</a>
+          <a href="food.html">Food</a>
+          </div>
+      </div> 
+      <div class="dropdown">
+        <button class="dropbtn">Community
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="community.html">Community</a>
+          <a href="culture.html">Culture & Heritage</a>
+          </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">History
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="history.html">History</a>
+          <a href="location.html">Location</a>
+          <a href="people.html">People</a>
+          </div>
+      </div> 
+      <a href="index.html" class=”active”>Homepage</a>
+    
+    </div>
+    <style>
+      .content {
+          font-family: 'Courier New', Courier, monospace;
+          text-align: right;
+          background-color: #771011;
+          padding: 10px;
+          width: 57%;
+          color: #ece6d3;
+          margin-left: 120px;
+          float: left;
+          margin-bottom: 5px;
+          font-size: large;
+          margin-top: 5px;
+        }
+        .zoom {
+       padding: 10px;
+       transition: transform .2s;
+       float: right;
+       margin-right: 130px;
+       margin-bottom: 5px;
+       margin-top: 20px;
+       background-color: #771011;
+     }
+     .zoom:hover {
+       -ms-transform: scale(2);
+       -webkit-transform: scale(2);
+       transform: scale(2); 
+     }
+     .content2 {
+          font-family: 'Courier New', Courier, monospace;
+          text-align: left;
+          background-color: #771011;
+          padding: 10px;
+          width: 57%;
+          color: #ece6d3;
+          margin-right: 120px;
+          float: right;
+          margin-bottom: 5px;
+          font-size: large;
+          margin-top: 50px;
+        }
+      .zoom2 {
+       padding: 10px;
+       transition: transform .2s;
+       float: left;
+       margin-left: 120px;
+       margin-bottom: 5px;
+       margin-top: 10px;
+       background-color: #771011;
+
+     }
+     .zoom2:hover {
+       -ms-transform: scale(2);
+       -webkit-transform: scale(2);
+       transform: scale(2); 
+     }
+     .content3 {
+          font-family: 'Courier New', Courier, monospace;
+          text-align: right;
+          background-color: #771011;
+          padding: 5px;
+          width: 58%;
+          color: #ece6d3;
+          margin-left: 120px;
+          float: left;
+          margin-bottom: 5px;
+          font-size: large;
+          margin-top: 10px;
+        }
+        .zoom3 {
+       padding: 10px;
+       transition: transform .2s;
+       float: right;
+       margin-right: 120px;
+       margin-bottom: 5px;
+       margin-top: 10px;
+       background-color: #771011;
+     }
+     .zoom3:hover {
+       -ms-transform: scale(2);
+       -webkit-transform: scale(2);
+       transform: scale(2); 
+     }
+     </style>
+  
+       <h1 style="text-align: center; font-size: x-large; color: black; font-family: 'Courier New', Courier, monospace;">Hello! Welcome to the "Attraction" section of our local community website. What kind of food do Kampung Padang Jawa, Petaling have? Let's discover below!</h1>
+   
+      <div class="content">
+         <h2 style="font-style: oblique; font-size: large;">🌟 Roti Kapas Kukus 🌟</h2>
+          <p style="text-align: justify; font-size: large;">Recognized interchangeably as steamed cotton bread or filled steamed bread, this popular street food establishment is situated in the heart of Kampung Padang Jawa. 
+            This locally originated stall has gained prominence for its meticulously crafted homemade fluffy <i>roti</i>. The recipe encompasses a fusion of Chinese <i>bao</i> 
+            and indigenous Malay culinary influences. The freshly prepared <i>roti</i> is generously filled with a variety of sweet and savory sauces, allowing patrons the 
+            freedom to customize their selections according to personal preferences. Many customers opt to complement their <i>roti</i> with sauces featuring beef and chicken 
+            meats. Alternatively, some patrons favor diverse sauce options such as <i>onde-onde</i>, popcorn caramel, and butterscotch. The stall's location is at Kampung 
+            Padang Jawa, 41300 Shah Alam, Selangor, and it operates from Tuesday to Sunday.</p>
+          </div>
+  
+          <div class="zoom">
+              <img src="pictures/Roti Kapas Kukus Stall.jpg" alt="Roti Kapas Kukus Stall" width="250px" height="250px">
+          </div>
+
+  
+          <div class="content2">
+              <h2 style="font-style: oblique; font-size: large;">🌟 Kedai Makan Pecal Lele 🌟</h2>
+          <p style="text-align: justify;">Pecal Lele offers Indonesian cuisine with a focus on promoting ayam penyet as its signature dish, and it operates around the clock. Renowned as a favored local destination 
+            for residents of Padang Jawa and nearby UiTM students, the stall is situated at Lot 617, Jalan Berangan, Kampung Padang Jawa, 40200 Shah Alam, Selangor. The <i>ayam penyet</i>
+            rice is affordably priced at RM4.50, and the fried catfish (Pecal Lele) is available for RM5.50.</p>
+          </div>
+  
+          <div class="zoom2">
+            <img src="pictures/Pecal Lele Stall.jpg" alt="Pecal Lele Stall" width="250px" height="250px">
+        </div>
+
+
+      <div class="content3">
+        <h2 style="font-style: oblique; font-size: large;">🌟 Apam Balik Kuhot Shah Alam 🌟 </h2>
+         <p style="text-align: justify; font-size: large;">Apam Balik Kuhot, nestled in Kampung Padang Jawa, stands out as a culinary treasure, encapsulating the vibrant essence of Malaysian street food. Esteemed for its expertise in 
+          preparing the quintessential Apam Balik, a traditional pancake brimming with delightful nuances, this beloved local establishment has gained widespread acclaim. What distinguishes
+          Apam Balik Kuhot is its distinctive array of fillings. Ranging from the timeless blend of peanuts and sugar to inventive selections such as Nutella, cheese, or creamy corn, the 
+          stall provides a diverse spectrum of flavors catering to a wide range of tastes from 21 different flavours.</p>
+         </div>
+ 
+         <div class="zoom3">
+             <img src="pictures/Apam Balik Kuhot.jpg" alt="Apam Balik Kuhot Stall" width="250px" height="250px">
+         </div>
+
+  </body>
+</body>
+<style>
+    .column {
+      float: left;
+      width: 100%;
+    }
+  </style>
+  <footer style="background-color: #771011; padding: 3px;" class="column">
+    <p style="font-family: Arial, Helvetica, sans-serif; color: #ece6d3; text-align: center;">&copy; 2024 Kampung Padang Jawa Group. All Rights Reserved.</p>
+    <p style="font-family: Arial, Helvetica, sans-serif; color: #ece6d3; text-align: center;">Recommended browser Google Chrome. Resolution 1366×768</p>
+    <p style="font-family: Arial, Helvetica, sans-serif; color: #ece6d3; text-align: center;">Last Updated 4 February 2024</p>
+  
+</html>
